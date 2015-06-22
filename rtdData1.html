@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>Real Time Data</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.1/papaparse.min.js"></script>
+	</head>
+	<body>
+		<!-- Main container-->
+		<div class="container-fluid">
+			<nav class="navbar navbar-inverse navbar-default">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="" style="color:red;">
+					Real Time Data</a>
+				</div>
+			</nav>
+			<table id="grid-data" class="table table-condensed table-hover table-striped">
+				<thead>
+					<tr>
+						<th>SN.</th>
+						<th>Description</th>
+						<th>Value</th>
+						<th>Quality</th>
+						<th>Key</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+				
+				
+<script>
+	//Test Change
+	//First  function to execute after  page ready.
+	$(Papa.parse("nldc1.csv", {
+			header: true,
+			download: true,
+			step: undefined,
+			complete: function parseComplete(results) {
+						console.log("Parsing complete:", results);
+						var	myArray = results.data;
+						for (var i=0;  i< myArray.length;  i++) {
+							$("#grid-data").append("<tr><td>" + (i+1) + "</td><td>" + 
+								myArray[i].Description +"</td><td>" +
+	                            		myArray[i].Value + "</td><td>" + myArray[i].Quality + "</td><td>"
+	                            		+ myArray[i].key + "</td></tr>")};
+						   }
+		}));
+
+</script>
+</body>
+</html>

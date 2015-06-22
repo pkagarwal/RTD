@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Real Time Data</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Use full width of device -->
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-bootgrid/1.2.0/jquery.bootgrid.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bootgrid/1.2.0/jquery.bootgrid.fa.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bootgrid/1.2.0/jquery.bootgrid.min.js"></script>
+	<!-- Papa parse library for local directory -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.1/papaparse.min.js"></script>
+</head>
+<body>
+	<!-- Main container-->
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-default">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="" style="color:red;">
+				Real Time Data</a>
+			</div>
+		</nav>
+		<table id="grid-data" class="table table-condensed table-hover table-striped">
+			<thead>
+				<tr>
+					<th data-column-id="Description">Description</th>
+					<th data-column-id="Value" data-type="numeric">Value</th>
+					<th data-column-id="Quality">Quality</th>
+					<th data-column-id="key" data-width="250">Key</th>
+				</tr>
+			</thead>
+		</table>
+		</div>
+<script>
+	
+	
+	//First  function to execute after  page ready.
+	$(Papa.parse("nldc1.csv", {
+			header: true,
+			download: true,
+			complete: function parseComplete(results) {
+						console.log("Parsing complete:", results);
+						var	myArray = results.data;
+						for (var i=0;  i< myArray.length;  i++) {
+							$("#grid-data").bootgrid("append", [{
+	                            	Description: myArray[i].Description,
+	                            	Value: myArray[i].Value,
+	                            	Quality: myArray[i].Quality,
+	                            	key: myArray[i].key }]); }}
+	}));
+						
+</script>
+</body>
+</html>

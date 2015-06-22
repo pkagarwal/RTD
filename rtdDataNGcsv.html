@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<html>
+		<head>
+			<title>Real Time Data</title>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+			<meta name="theme-color" content="#ffffff">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.1/papaparse.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+
+		</head>
+		<body ng-app="myApp" >
+			<!-- Main container-->
+			<div class="container-fluid">
+				<nav class="navbar navbar-inverse navbar-default">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="" style="color:red;">
+						Real Time Data</a>
+					</div>
+				</nav>
+			
+			
+				<table id="results" ng-controller="myCtrl" class="table table-stripped table-bodered table-condensed">
+					<tr>
+						<th>SN</th>
+						<th>#</th>
+						<th>Description</th>
+						<th>Value</th>
+						<th>Quality</th>
+						<th>Key</th>
+					</tr>
+					<tr ng-repeat="RTD in RTDS track by RTD.id">
+						<td >{{RTD.Description}}</td></tr>
+					
+				</table>
+		</div>		
+<script>
+	//First  function to execute after  page ready.
+	angular.module('myApp', []).controller('myCtrl', function($scope) {
+					Papa.parse("nldc1.csv", {
+						download: true,					
+						header: true,
+						preview: 10,
+						complete: function parseComplete(results) {
+							console.log("Parsing complete:", results);
+											
+							
+						$.each(results.data, function(i, el) {
+                					var row = $("<tr/>");
+                					row.append($("<td/>").text(i));
+                					$.each(el, function(j, cell) {
+                    					if (cell !== "")
+                        					row.append($("<td/>").text(cell)); }); 
+                				$("#results").append(row); 
+            }); 
+							
+							
+							
+						}
+					 });	
+					
+	});
+</script>
+</body>
+	
+</html>

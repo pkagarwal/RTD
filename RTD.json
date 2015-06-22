@@ -1,0 +1,2235 @@
+{
+"DateTime" : "21-06-2015 22:01:52",
+"rtdData" : [
+    {
+        "Description" : "NEW GRID FREQUENCY",
+        "Value" : "50.09",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SR GRID FREQUENCY",
+        "Value" : "50.1",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "N-E-W GRID UI RATE",
+        "Value" : "0",
+        "Quality" : "REPLACED"
+    },
+    {
+        "Description" : "SR GRID UI RATE",
+        "Value" : "0",
+        "Quality" : "REPLACED"
+    },
+    {
+        "Description" : "NEW GRID DEMAND",
+        "Value" : "97412",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR GRID DEMAND",
+        "Value" : "26446",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA GENERATION",
+        "Value" : "123858",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA THERMAL GENEARTION",
+        "Value" : "85353",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA HYDRO GENERATION",
+        "Value" : "20329",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA GAS GENEARTION",
+        "Value" : "5139",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA NUCLEAR GENERATION",
+        "Value" : "4618",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ALL INDIA TOTAL WIND GEN",
+        "Value" : "4892",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "Raichur 765kV Bus-I Voltage",
+        "Value" : "800",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Raichur 765kV Bus-II Voltage",
+        "Value" : "800",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Raichur-Solapur SUM Flow (MW)",
+        "Value" : "307",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Raichur-Solapur-I Flow (MVAR)",
+        "Value" : "32",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Solapur 765kV Bus-I Voltage",
+        "Value" : "803",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Solapur 765kV Bus-II Voltage",
+        "Value" : "805",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Solapur-Raichur SUM Flow (MW)",
+        "Value" : "281",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Solapur-Raichur-I Flow (MVAR)",
+        "Value" : "-68",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BANGLADESH FREQUENCY",
+        "Value" : "49.82",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BANGLADESH SCHEDULE",
+        "Value" : "453",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BANGLADESH ACTUAL",
+        "Value" : "441",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BANGLADESH UI",
+        "Value" : "-12",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BANGLADESH 400KV SIDE VOLTAGE",
+        "Value" : "409",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BANGLADESH 220KV SIDE VOLTAGE",
+        "Value" : "230",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "PUN Schedule",
+        "Value" : "4872",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "HAR Schedule",
+        "Value" : "5381",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "RAJ Schedule",
+        "Value" : "2980",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DEL Schedule",
+        "Value" : "3430",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "UP Schedule",
+        "Value" : "5923",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "UTT Schedule",
+        "Value" : "654",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "CHD Schedule",
+        "Value" : "263",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "HP Schedule",
+        "Value" : "83",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "J&K Schedule",
+        "Value" : "1000",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "PUN Drawal",
+        "Value" : "4842",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HAR Drawal",
+        "Value" : "5260",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "RAJ Drawal",
+        "Value" : "2248",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DEL Drawal",
+        "Value" : "3478",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UP Drawal",
+        "Value" : "6421",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UTT Drawal",
+        "Value" : "659",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CHD Drawal",
+        "Value" : "267",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HP Drawal",
+        "Value" : "-6",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "J&K Drawal",
+        "Value" : "1078",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PUN UI",
+        "Value" : "-30",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HAR UI",
+        "Value" : "-121",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "RAJ UI",
+        "Value" : "-732",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DEL UI",
+        "Value" : "47",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UP UI",
+        "Value" : "499",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UTT UI",
+        "Value" : "5",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CHD UI",
+        "Value" : "4",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HP UI",
+        "Value" : "-88",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "J&K UI",
+        "Value" : "78",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PUN Generation",
+        "Value" : "4471",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HAR Generation",
+        "Value" : "2063",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "RAJ Generation",
+        "Value" : "5250",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DEL Generation",
+        "Value" : "877",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UP Generation",
+        "Value" : "6227",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UTT Generation",
+        "Value" : "728",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HP Generation",
+        "Value" : "879",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "J&K Generation",
+        "Value" : "451",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PUN Demand Met",
+        "Value" : "9314",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HAR Demand Met",
+        "Value" : "7322",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "RAJ Demand Met",
+        "Value" : "7526",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DEL Demand Met",
+        "Value" : "4355",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UP Demand Met",
+        "Value" : "12649",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "UTT Demand Met",
+        "Value" : "1387",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CHD Demand Met",
+        "Value" : "267",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "HP Demand Met",
+        "Value" : "875",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "J&K Demand Met",
+        "Value" : "1529",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR STATE SCHEDULE",
+        "Value" : "24650",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "NR STATE ACTUAL",
+        "Value" : "24241",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR STATE UI",
+        "Value" : "-344",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR STATE GENERATION",
+        "Value" : "20950",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR STATE DEMAND",
+        "Value" : "45223",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR ISGS Schedule",
+        "Value" : "18818",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR ISGS Actual",
+        "Value" : "18481",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR ISGS UI",
+        "Value" : "-228",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR Schedule",
+        "Value" : "6561",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR Actual",
+        "Value" : "6445",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NR UI",
+        "Value" : "-116",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WBSEB Schedule",
+        "Value" : "2046",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BSEB Schedule",
+        "Value" : "2809",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "OPTCL Schedule",
+        "Value" : "686",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "JSEB Schedule",
+        "Value" : "558",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DVC Schedule",
+        "Value" : "-800",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "SIKKIM Schedule",
+        "Value" : "33",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WBSEB Actual",
+        "Value" : "2087",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BSEB Actual",
+        "Value" : "2641",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "OPTCL Actual",
+        "Value" : "695",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "JSEB Actual",
+        "Value" : "542",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "DVC Actual",
+        "Value" : "-759",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SIKKIM Actual",
+        "Value" : "38",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WBSEB UI",
+        "Value" : "44",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BSEB UI",
+        "Value" : "-168",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "OPTCL UI",
+        "Value" : "-2",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "JSEB UI",
+        "Value" : "-16",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "DVC UI",
+        "Value" : "68",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "SIKKIM UI",
+        "Value" : "5",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WBSEB GEN",
+        "Value" : "4289",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BSEB GEN",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "OPTCL GEN",
+        "Value" : "2332",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "JSEB GEN",
+        "Value" : "388",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "DVC GEN",
+        "Value" : "3322",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "WBSEB Demand Met",
+        "Value" : "6380",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BSEB Demand Met",
+        "Value" : "2641",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "OPTCL Demand Met",
+        "Value" : "3016",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "JSEB Demand Met",
+        "Value" : "930",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "DVC Demand Met",
+        "Value" : "2593",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "SIKKIM Demand Met",
+        "Value" : "38",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER STATE SCHEDULE",
+        "Value" : "5302",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER STATE ACTUAL",
+        "Value" : "5262",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER STATE UI",
+        "Value" : "-69",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER STATE GENERATION",
+        "Value" : "10330",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER STATE DEMAND",
+        "Value" : "15646",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER ISGS Schedule",
+        "Value" : "8423",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER ISGS Actual",
+        "Value" : "7782",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER ISGS UI",
+        "Value" : "-734",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER Inter-Regional Schedule",
+        "Value" : "-3971",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER Inter-Regional Actual Drawl",
+        "Value" : "-3342",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER Inter-Regional UI",
+        "Value" : "629",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MSB Schedule",
+        "Value" : "3258",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GEB Schedule",
+        "Value" : "1801",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MPB Schedule",
+        "Value" : "3654",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "CSB Schedule",
+        "Value" : "875",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DNH Schedule",
+        "Value" : "647",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DD Schedule",
+        "Value" : "269",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA Schedule",
+        "Value" : "415",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ESSAR STEEL SCHEDULE",
+        "Value" : "337",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MSB Actual",
+        "Value" : "3032",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GEB Actual",
+        "Value" : "1812",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MPB Actual",
+        "Value" : "3645",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CSB Actual",
+        "Value" : "604",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DNH Actual",
+        "Value" : "700",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DD Actual",
+        "Value" : "389",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GOA Actual",
+        "Value" : "381",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ESSAR STEEL ACTUAL",
+        "Value" : "388",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "0",
+        "Value" : "-227",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GEB UI",
+        "Value" : "8",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MPB UI",
+        "Value" : "-9",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CSB UI",
+        "Value" : "-267",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DNH UI",
+        "Value" : "53",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DD UI",
+        "Value" : "120",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GOA UI",
+        "Value" : "-33",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ESSAR STEEL UI",
+        "Value" : "51",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MSB Generation",
+        "Value" : "10212",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GEB Generation",
+        "Value" : "9626",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MPB Generation",
+        "Value" : "1870",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CSB Generation",
+        "Value" : "2038",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MSB Demand Met",
+        "Value" : "13244",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GEB Demand Met",
+        "Value" : "11438",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MPB Demand Met",
+        "Value" : "5516",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "CSB Demand Met",
+        "Value" : "2646",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DNH Demand Met",
+        "Value" : "700",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "DD Demand Met",
+        "Value" : "389",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GOA Demand Met",
+        "Value" : "381",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR STATE SCHEDULE",
+        "Value" : "11254",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR STATE ACTUAL",
+        "Value" : "10986",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR STATE UI",
+        "Value" : "-268",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR STATE GENERATION",
+        "Value" : "23746",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR STATE DEMAND",
+        "Value" : "34736",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR_ISGS_SCHEDULE",
+        "Value" : "18273",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR ISGS Actual",
+        "Value" : "17183",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR ISGS UI",
+        "Value" : "-1092",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR Inter-Regional Schedule",
+        "Value" : "-6393",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR Inter-Regional Actual Drawl",
+        "Value" : "-6252",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR Inter-Regional UI",
+        "Value" : "151",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP Schedule",
+        "Value" : "1091",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TELANGANA_SCHEDULE",
+        "Value" : "2861",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "AP_TELENGANA_SCH",
+        "Value" : "3952",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TN Schedule",
+        "Value" : "4222",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KAR Schedule",
+        "Value" : "1060",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KER Schedule",
+        "Value" : "1999",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "PONDI Schedule",
+        "Value" : "275",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA SCHEDULE(SR)",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "AP Actual",
+        "Value" : "870",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TELANGANA_ACTUAL",
+        "Value" : "2771",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP_TELENGANA_ACT",
+        "Value" : "3647",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TN Actual",
+        "Value" : "4388",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KAR Actual",
+        "Value" : "981",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KER Actual",
+        "Value" : "1830",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PONDI Actual",
+        "Value" : "286",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA ACTUAL(SR)",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "AP UI",
+        "Value" : "-208",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TELANGANA_UI",
+        "Value" : "-97",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP_TELENGANA_UI",
+        "Value" : "-304",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TN UI",
+        "Value" : "144",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KAR UI",
+        "Value" : "-77",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KER UI",
+        "Value" : "-165",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PONDI UI",
+        "Value" : "10",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA UI",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "AP Generation",
+        "Value" : "3074",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TELANGANA_GENERATION",
+        "Value" : "1075",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "AP_TELENGANA_GEN",
+        "Value" : "4150",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TN Generation",
+        "Value" : "6038",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KAR Generation",
+        "Value" : "4260",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KER Generation",
+        "Value" : "700",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP Demand Met",
+        "Value" : "3953",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TELANGANA_DEMAND",
+        "Value" : "3828",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP_TELENGANA_DEMAND",
+        "Value" : "7781",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TN Demand Met",
+        "Value" : "10429",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KAR Demand Met",
+        "Value" : "5335",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "KER Demand Met",
+        "Value" : "2528",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "PONDI Demand Met",
+        "Value" : "286",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SR STATE SCHEDULE",
+        "Value" : "11508",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SR STATE ACTUAL",
+        "Value" : "11116",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR STATE UI",
+        "Value" : "-392",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR STATE GENERATION",
+        "Value" : "14073",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR STATE DEMAND",
+        "Value" : "26446",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR ISGS Schedule",
+        "Value" : "",
+        "Quality" : ""
+    },
+    {
+        "Description" : "SR ISGS Actual",
+        "Value" : "",
+        "Quality" : ""
+    },
+    {
+        "Description" : "SR ISGS UI",
+        "Value" : "0",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR Inter-Regional Schedule",
+        "Value" : "3349",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SR Inter-Regional Actual Drawl",
+        "Value" : "2818",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SR Inter-Regional UI",
+        "Value" : "-532",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ASEB Schedule",
+        "Value" : "867",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MESEB Schedule",
+        "Value" : "59",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "TRIP Schedule",
+        "Value" : "90",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MAN Schedule",
+        "Value" : "121",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MIZO Schedule",
+        "Value" : "46",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NAGA Schedule",
+        "Value" : "58",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "AP Schedule",
+        "Value" : "88",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ASEB Actual",
+        "Value" : "859",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MESEB Actual",
+        "Value" : "19",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "TRIP Actual",
+        "Value" : "93",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MAN Actual",
+        "Value" : "117",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MIZO Actual",
+        "Value" : "50",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "NAGA Actual",
+        "Value" : "82",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "AP Actual",
+        "Value" : "81",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ASEB UI",
+        "Value" : "-3",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MESEB UI",
+        "Value" : "-36",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "TRIP UI",
+        "Value" : "36",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MAN UI",
+        "Value" : "27",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MIZO UI",
+        "Value" : "7",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NAGA UI",
+        "Value" : "14",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "AP UI",
+        "Value" : "-5",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ASEB Demand Met",
+        "Value" : "207",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MESEB Demand Met",
+        "Value" : "170",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "TRIP Demand Met",
+        "Value" : "85",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ASEB Demand Met",
+        "Value" : "1066",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MESEB Demand Met",
+        "Value" : "189",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "TRIP Demand Met",
+        "Value" : "178",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "MAN Demand Met",
+        "Value" : "117",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "MIZO Demand Met",
+        "Value" : "50",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "NAGA Demand Met",
+        "Value" : "82",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "AP Demand Met",
+        "Value" : "81",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER STATE SCHEDULE",
+        "Value" : "1261",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER STATE ACTUAL",
+        "Value" : "1311",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NER STATE UI",
+        "Value" : "50",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER STATE GENERATION",
+        "Value" : "463",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER STATE DEMAND",
+        "Value" : "1812",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER ISGS Schedule",
+        "Value" : "1040",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER ISGS Actual",
+        "Value" : "1069",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER ISGS UI",
+        "Value" : "28",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER Inter-Regional Schedule",
+        "Value" : "329",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "NER Inter-Regional Actual Drawl",
+        "Value" : "281",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "NER Inter-Regional UI",
+        "Value" : "-48",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-NR SCHEDULE",
+        "Value" : "-2179",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-NR SCHEDULE",
+        "Value" : "-4482",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-SR SCHEDULE",
+        "Value" : "-2042",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-WR SCHEDULE",
+        "Value" : "521",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-SR SCHEDULE",
+        "Value" : "-1407",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NER SCHEDULE",
+        "Value" : "-271",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NR ACTUAL",
+        "Value" : "-1314",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-NR ACTUAL",
+        "Value" : "-5106",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-SR ACTUAL",
+        "Value" : "-1593",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-WR ACTUAL",
+        "Value" : "-159",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR-SR ACTUAL",
+        "Value" : "-1281",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NER ACTUAL",
+        "Value" : "275",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-NR UI",
+        "Value" : "864",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-NR UI",
+        "Value" : "-610",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-SR UI",
+        "Value" : "450",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-WR UI",
+        "Value" : "-679",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR-SR UI",
+        "Value" : "138",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NER UI",
+        "Value" : "-6",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "SASARAM - FATEHPUR",
+        "Value" : "12",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "FATEHPUR-SASARAM",
+        "Value" : "71",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GAYA-FATEHPUR",
+        "Value" : "-2",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "FATEHPUR-GAYA",
+        "Value" : "2",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV Muzaffarpur-Gorakhpur-1",
+        "Value" : "76",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV Muzaffarpur-Gorakhpur-2",
+        "Value" : "74",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GORAKHPUR-MUZAFFARPUR 1",
+        "Value" : "-76",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GORAKHPUR-MUZAFFARPUR 2",
+        "Value" : "-94",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Patna-Balia-1",
+        "Value" : "74",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Patna-Balia-2",
+        "Value" : "74",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Patna-Balia-3",
+        "Value" : "82",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Patna-Balia-4",
+        "Value" : "85",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV BALIA-PATNA 1",
+        "Value" : "-74",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV BALIA-PATNA 2",
+        "Value" : "-73",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV BALIA-PATNA 3",
+        "Value" : "-82",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV BALIA-PATNA 4",
+        "Value" : "-84",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV Biharshariff-Balia-1",
+        "Value" : "48",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV Biharshariff-Balia-2",
+        "Value" : "60",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BALIA-BIHARSHARIFF 1",
+        "Value" : "-66",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BALIA-BIHARSHARIFF 2",
+        "Value" : "-68",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SASARAM-ALLAHABAD",
+        "Value" : "130",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Allahabad-Sasaram",
+        "Value" : "-137",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SASARAM-SARNATH",
+        "Value" : "229",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "VARANASI-SASARAM",
+        "Value" : "-232",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV Pusauli-Sahupuri",
+        "Value" : "142",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV SAHUPURI-PUSAULI",
+        "Value" : "-136",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BALIA-GAYA",
+        "Value" : "50",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "BALIA-GAYA",
+        "Value" : "-257",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NR ACTUAL",
+        "Value" : "1314",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765 KV GWALIOR-AGRA 1",
+        "Value" : "1133",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765 KV GWALIOR-AGRA 2",
+        "Value" : "1106",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765 KV AGRA-GWALIOR 1",
+        "Value" : "-1113",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765 KV AGRA-GWALIOR 2",
+        "Value" : "-1113",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ZERDA-KANKROLI",
+        "Value" : "-106",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Kankroli-Zerda",
+        "Value" : "115",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ZERDA-BHINMAL",
+        "Value" : "-141",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BHINMAL-ZERDA",
+        "Value" : "155",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "VINDHYACHAL HVDC(WR)",
+        "Value" : "311",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "VINDHYACHAL HVDC(nr)",
+        "Value" : "-312",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ADANI-MAHENDRAGARH HVDC POLE I",
+        "Value" : "1252",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ADANI-MAHENDRAGARH HVDC POLE II",
+        "Value" : "1249",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV BADOD-MORAK",
+        "Value" : "-7",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV MORAK-BADOD",
+        "Value" : "4",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV BADOD-KOTA",
+        "Value" : "-23",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV KOTA UJJAIN",
+        "Value" : "21",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV MALANPUR-AURAIYA",
+        "Value" : "0",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "220KV Auraiya-Malanpur",
+        "Value" : "-1",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV MEHGAON-AURAIYA",
+        "Value" : "0",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "220KV Auraiya-Mehgaon",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "VINDHYACHAL ANGLE",
+        "Value" : "1",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-NR ACTUAL",
+        "Value" : "5106",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "400KV New Siliguri-Bongaigaon1",
+        "Value" : "50",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV New Siliguri-Bongaigaon2",
+        "Value" : "57",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BONGAIGAON-BINAGURI1",
+        "Value" : "-57",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "BONGAIGAON-BINAGURI 2",
+        "Value" : "-62",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "220KV Birpara-Salakati 1",
+        "Value" : "38",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV Birpara-Salakati 2",
+        "Value" : "37",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV SALAKATI-BIRPARA 1",
+        "Value" : "-37",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV SALAKATI-BIRPARA 2",
+        "Value" : "-37",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-NER ACTUAL",
+        "Value" : "-275",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "New Ranchi-Dharamjaigarh Flow (Mw)",
+        "Value" : "-130",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Dharamjaigarh-New Ranchi-I Flow (MW)",
+        "Value" : "135",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Rourkela-Raigarh",
+        "Value" : "-16",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "STERLITE-RAIGARH 4",
+        "Value" : "380",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "400kV Raigarh-Rourkela",
+        "Value" : "9",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV Raigarh-Sterlite 4",
+        "Value" : "-294",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "IBEUL-RAIGARH 1",
+        "Value" : "2",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "RAIGARH-IBEUL 1",
+        "Value" : "6",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "JHARSUGUDA-RAIGARH2",
+        "Value" : "13",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "RAIGARH-JHARSUGUDA 2",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 kv RANCHI-SIPAT1",
+        "Value" : "-102",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SIPAT-RANCHI 1",
+        "Value" : "106",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 kv RANCHI-SIPAT2",
+        "Value" : "-105",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SIPAT-RANCHI 2",
+        "Value" : "107",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV BUDHIPADAR-KORBA 2",
+        "Value" : "79",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KORBA-BUDHIPADAR 2",
+        "Value" : "-28",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "220KV BUDHIPADAR-KORBA 3",
+        "Value" : "73",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KORBA-BUDHIPADAR 3",
+        "Value" : "-68",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220KV BUDHIPADAR-RAIGARH",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "220 KV RAIGARH-BUDHIPADAR",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER-WR ACTUAL",
+        "Value" : "159",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "BHADRAWATI B\/B HVDC",
+        "Value" : "989",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BHADRAWATI B\/B HVDC(SR)",
+        "Value" : "940",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "Solapur-Raichur-I Flow (MW)",
+        "Value" : "144",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Solapur-Raichur-II Flow (MW)",
+        "Value" : "148",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Raichur-Solapur-I Flow (MW)",
+        "Value" : "-153",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Raichur-Solapur-II Flow (MW)",
+        "Value" : "-154",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Mudasangi-Chikodi-I (MW)",
+        "Value" : "0",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "Chikodi-Mudasangi-I (MW)",
+        "Value" : "-51",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Talangde-Chikodi-I (MW)",
+        "Value" : "59",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Chikhodi-Talangde-I (MW)",
+        "Value" : "-59",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WR-SR ACTUAL",
+        "Value" : "1281",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV JEYPORE-GAZUWAKA1",
+        "Value" : "175",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 KV JEYPORE-GAZUWAKA2",
+        "Value" : "340",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GAZUWAKA-JEYPORE 1",
+        "Value" : "-173",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "GAZUWAKA-JEYPORE 2",
+        "Value" : "-331",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-SR Interconnector(ER Side)",
+        "Value" : "-226",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-SR Interconnector(SR Side)",
+        "Value" : "-226",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Balimela-U.sileru",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "U.sileru-Balimela",
+        "Value" : "7",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TALCHER-KOLAR HVDC POLE1(ER Side)",
+        "Value" : "545",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TALCHER-KOLAR HVDC POLE2(ER Side)",
+        "Value" : "546",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TALCHER-KOLAR HVDC POLE1(SR Side)",
+        "Value" : "545",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TALCHER-KOLAR HVDC POLE2(SR Side)",
+        "Value" : "546",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ER-SR ACTUAL",
+        "Value" : "1593",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765kV Jharsuguda-Dharamjaigarh-I (MW)",
+        "Value" : "-11",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "765kV Jharsuguda-Dharamjaigarh-II (MW)",
+        "Value" : "-17",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "765kV Dharamjaigarh-Jharsuguda-I (MW)",
+        "Value" : "-53",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "765kV Dharamjaigarh-Jharsuguda-II (MW)",
+        "Value" : "-57",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400kV Vindhyachal Stg.4-Rihand-I (MW)",
+        "Value" : "515",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "400kV Rihand-Vindhyachal Stg.4-I (MW)",
+        "Value" : "-320",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MAHENDRAGARH-ADANI HVDC POLE I",
+        "Value" : "-1180",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MAHENDRAGARH-ADANI HVDC POLE II",
+        "Value" : "-1169",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "PUNJAB EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "HARYANA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "RAJASTHAN EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DELHI EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "UP EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "UTTARANCHAL EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "CHD EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "HP EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "JK EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "WB EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "BIHAR EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GRIDCO EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "JHARKHAND EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DVC EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SIKKIM EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MAHARASTRA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GUJARAT EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MP EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "CHATISHGARH EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DNH EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "DD EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ESSAR EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "AP EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TELANGANA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TAMILNADU EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KARNATAKA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KERELA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "PONDY EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GOA_SR EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ASSAM EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MEGALAYA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "TRIPURA EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MANIPUR EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "MIZORAM EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "NAGALAND EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "ARUNACHAL EFF. UI RATE",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV New Siliguri-Bongaigaon3",
+        "Value" : "0",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400KV New Siliguri-Bongaigaon4",
+        "Value" : "60",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400 kV BONGAIGAON-SILIGURI 3",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "400 kV BONGAIGAON-SILIGURI 4",
+        "Value" : "-67",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "PURULIA PUMP STORAGE",
+        "Value" : "563",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "KADAMPARAI PUMP STORAGE",
+        "Value" : "197",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "SRISALEM PUMP STORAGE",
+        "Value" : "-29",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "GHATGHAR PUMP STORAGE",
+        "Value" : "0",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER-NR ACTUAL",
+        "Value" : "-1524",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR-NR ACTUAL",
+        "Value" : "-4912",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-WR ACTUAL",
+        "Value" : "-111",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "ER-NER ACTUAL",
+        "Value" : "-281",
+        "Quality" : "REMOTE-REPLACED"
+    },
+    {
+        "Description" : "ER-SR ACTUAL",
+        "Value" : "-1607",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "WR-SR ACTUAL",
+        "Value" : "-1210",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "Dakachu Unit 1 MW",
+        "Value" : "15",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "Dakachu Unit 2 MW",
+        "Value" : "20",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "220kV Dakachu-Tsirang line",
+        "Value" : "35",
+        "Quality" : "SUSPECT"
+    },
+    {
+        "Description" : "400kV Barh-Gorakhpur 1",
+        "Value" : "108",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400kV Barh-Gorakhpur 2",
+        "Value" : "114",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400kV Barh-Gorakhpur 1",
+        "Value" : "-118",
+        "Quality" : "GOOD"
+    },
+    {
+        "Description" : "400kV Barh-Gorakhpur 2",
+        "Value" : "-143",
+        "Quality" : "GOOD"
+    }
+    ]
+}

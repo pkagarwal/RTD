@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<html>
+		<head>
+			<title>Real Time Data</title>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+			<meta name="theme-color" content="#ffffff">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+
+		</head>
+		<body ng-app="myApp" >
+			<!-- Main container-->
+			<div class="container-fluid">
+				<nav class="navbar navbar-inverse navbar-default">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="" style="color:red;">
+						Real Time Data</a>
+					</div>
+				</nav>
+			</div>
+				
+				<div ng-controller="myCtrl" class="container-fluid" style="width:60%; margin:0 auto;">
+				<h3>Date & Time {{DateTime}}</h3>
+				<table class="table table-stripped table-bodered table-condensed">
+					<tr>
+						<th style="width:250;">Description</th>
+						<th>Value</th>
+						<th>Quality</th>
+						
+					</tr>
+					<tr ng-repeat="RTD in RTDS">
+						<td >{{RTD.Description}}</td>
+						<td ng-style={RTD.Value == 'GOOD'' ? "color:'Red'" : "">{{RTD.Value}}</td>
+						<td >{{RTD.Quality}}</td>
+						</tr>
+					
+				</table>
+				</div>		
+<script>
+	//First  function to execute after  page ready.
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope, $http, $timeout) {
+	    				
+					    
+					    $scope.getData = function() { 
+						    $http.get("RTD.json")
+    							.success(function(response) {
+					 			$scope.RTDS = response.rtdData; 
+					 			$scope.DateTime = response.DateTime;
+					 			console.log(response.DateTime);
+							    })};
+							    
+					    // Function to replicate setInterval using $timeout service.
+  						$scope.intervalFunction = function() {
+    						$timeout(function() {
+     					$scope.getData();
+      					$scope.intervalFunction();
+    						}, 1000)
+  							};
+				// Kick off the interval
+  				$scope.intervalFunction();
+		});
+</script>
+</body>
+	
+</html>
